@@ -1,0 +1,338 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 12:03:49 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 243ms (Views: 221.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 12:58:34 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 171ms (Views: 162.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 12:58:34 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:19:54 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 162ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:19:55 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:19:55 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:26:34 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 170ms (Views: 162.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:26:34 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:26:34 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:26:34 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=&year=" for 127.0.0.1 at 2016-02-19 13:26:34 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"", "year"=>""}
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:31:46 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 174ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:31:47 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:31:47 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:31:47 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=&year=" for 127.0.0.1 at 2016-02-19 13:31:47 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"", "year"=>""}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:33:50 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 171ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:33:50 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:33:50 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:33:50 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:35:24 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 172ms (Views: 164.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:35:24 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:35:24 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:35:24 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:40:53 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 167ms (Views: 159.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:40:53 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:40:53 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:40:53 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:43:12 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 177ms (Views: 170.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:43:12 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:43:12 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:43:12 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:45:05 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 169ms (Views: 161.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:45:05 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:45:05 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:45:05 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 170ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=Ford&year=1986" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"Ford", "year"=>"1986"}
+Redirected to http://www.example.com/car/status
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=Ford&year=1986" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"Ford", "year"=>"1986"}
+Redirected to http://www.example.com/car/status
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:47:11 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 170ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=Ford&year=1986" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"Ford", "year"=>"1986"}
+Redirected to http://www.example.com/car/status
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=Ford&year=1986" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"Ford", "year"=>"1986"}
+Redirected to http://www.example.com/car/status
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 13:47:56 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 16:12:26 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 164ms (Views: 155.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=Ford&year=1986" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"Ford", "year"=>"1986"}
+Redirected to http://www.example.com/car/status
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/car/my_auto" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#my_auto as HTML
+  Rendered car/my_auto.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Started GET "/car/make?make=Ford&year=1986" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#make as HTML
+  Parameters: {"make"=>"Ford", "year"=>"1986"}
+Redirected to http://www.example.com/car/status
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/car/status" for 127.0.0.1 at 2016-02-19 16:12:27 -0800
+Processing by CarController#status as HTML
+  Rendered car/status.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction

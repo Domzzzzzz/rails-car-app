@@ -1,0 +1,16 @@
+<h1>Car Status</h1>
+
+Make: <%= @car.make %> <br>
+Model Year: <%= @car.year %> <br>
+Lights:  <%= @car.lightsOn? %><br>
+
+<form id="toggle" action="/car/lights" method="get">
+  <h3>on</h3>
+  <input type="radio" name="lights" value="on"/>
+
+<h3>off</h3>
+
+  <input type="radio" name="lights" value="off"/>
+<hr>
+  <input type="submit" value="Lights On or Off"/>
+</form>
